@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const TopHeader = () => {
   return (
-    <div className="hidden fixed w-full h-14 lg:flex justify-between bg-gray-800 text-gray-100 top-0 py-4 px-2 z-10">
+    <div className="hidden w-full h-16 lg:flex justify-between bg-gray-800 text-gray-100 py-4 px-2 z-10">
       <div className="flex px-8 gap-6 items-center z-20 whitespace-nowrap">
         <h1 className="flex items-center gap-1">
           <Icon.BiMap className="w-7 h-7" />

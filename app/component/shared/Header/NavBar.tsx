@@ -12,7 +12,7 @@ const NavBar = () => {
 
   return (
     <div className="fixed h-20 w-full transition-all duration-200">
-      <div className="flex h-full justify-between items-center w-11/12 lg:w-4/5 mx-auto">
+      <div className="flex h-full justify-between items-center w-11/12 lg:w-4/5 mx-auto text-gray-100">
         {/* logo + title */}
         <div className="flex items-center gap-2">
           <Image
