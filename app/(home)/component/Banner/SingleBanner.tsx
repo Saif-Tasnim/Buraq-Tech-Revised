@@ -36,8 +36,8 @@ const SingleBanner: FC<ISingleBannerProps> = ({
 
       <div className="absolute left-3 lg:left-1/3 bottom-16">
         <div className="flex items-center gap-4 lg:gap-9">
-          <button className="p-4 bg-light-secondary rounded-md hover:bg-light-primary hover:text-gray-100">Connect With Us</button>
-          <button className="p-4 bg-dark-primary text-gray-100 rounded-md hover:bg-light-secondary hover:text-gray-900"> Learn More </button>
+          <button className="transition-all duration-500 p-4 bg-light-secondary rounded-md hover:bg-light-primary hover:text-gray-100">Connect With Us</button>
+          <button className="transition-all duration-500 p-4 bg-dark-primary text-gray-100 rounded-md hover:bg-light-secondary hover:text-gray-900"> Learn More </button>
         </div>
       </div>
     </div>
